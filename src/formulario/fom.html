@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="FoodLoversStation, morocho, patacones, comida, Guayaquil,  
+    ecuatoriana, ecuador, domicilio, comprar, ordenar">
+    <meta name="description" content="Sitio de comida Ecuatoriana para entrega a Domicilio en Guayaquil">
+    <meta name="author" content="hans zuberbuhler">
+    <meta name="copyright" content="mariduena servicos em telecomunicacoes">
+    <meta name="robots" content="index">
+    <link rel="icon" href="./images/FLSi.ico">
+    
+    <title>FoodLoversStation - Formulario</title>
+</head>
+<body>
+
+    <header>
+        <h1>
+            FoodLoversStation - Comidas Típicas Ecuatorianas a Domicílio.
+        </h1>
+        <p1> Guayaquil-Ecuador</p1>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio </a></li>
+                <li><a href="./Menu.html">Menu</a></li>
+                <li><a href="./fom.html">Formulario</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div> 
+    <form>
+        <p1>Ingresa tu nombre: </p1>
+        <input type="text" name="username"> <br><br>
+
+        <p1>Ingresa tu password: </p1>
+        <input type="password" name="user_pass"> <br><br>
+
+        <p1>Ingresa tu email: </p1>
+        <input type="email" name="user_email" required=""> <br><br>
+
+        <p1>Ingresa tu número de teléfono: </p1>
+        <input type="text" name="user_fone"> <br><br>   
+
+        <p1>Escojer la cantidad a comprar: </p1>
+        <input type="number" name="user_qtd"> <br><br>
+
+        <p1>Escoje el color: </p1>
+        <input type="color" name="user_color"> <br><br>
+
+        <p1>Ingresa variación entre 1 - 5: </p1>
+        <input type="range" name="user_pick" min="1" max="5"
+        oninput="display.value=value" onchange="display.value=value"
+        > 
+        <input type="text" id="display" value="0" readonly>
+        <br><br>
+
+        <p1>Ingresa fecha de entrega: </p1>
+        <input type="date" name="user_date"> <br><br>
+
+        <p1>Ingresa la hora de entrega: </p1>
+        <input type="time" name="user_time"> <br><br><br>   
+
+        <p1>Ingresa tu mensaje: </p1><br>
+        <textarea name="user_msg" id="user_msg" cols="60" rows="10"></textarea><br><br><br>  
+        
+        <input type="button" value="Grabar">
+        <input type="submit" value="Enviar">
+    </form>
+
+</div>
+<br>
+<a href="./index.html">Volver a la página de Inicio</a>
+
+</body>
+</html>
