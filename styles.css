@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 0px;
+    background: rgb(216, 216, 216);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* Area Título */
+
+#FLS {    
+    float: left;
+    /*overflow: hidden;
+    /*position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+}
+.toptext {
+    background:#F16702;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 40px;
+    color: white;
+    padding: 5px 20px;
+}
+/* Estilos de Texto del Menu Superior */
+
+
+nav {
+    /*background-color:#A32002;*/
+    background-color:#333;
+    overflow: hidden;
+    width: 100%;
+}
+
+nav a {
+    float: left; 
+    text-decoration: none;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 15px;
+    /*text-transform: uppercase;*/
+    padding: 14px 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover, .dropbtn, .dropdown:hover, .dropdown-content a:hover {
+    background-color:rgb(255, 255, 21);
+    color: limegreen;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    background-color: inherit;
+    /*font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    font-family: 'Roboto', sans-serif;
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  
+.clearfix {
+    clear: both;
+
+}
+
+/* Area Principal */
+
+.principal {
+    background: rgba(250, 250, 250, 0.9);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+    width: calc(80% - 40px);
+    padding: 10px;
+    min-height: 500px;
+    text-align: justify;
+
+
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 20px;
+}
+
+/* Area Secundaria */
+
+aside {
+    margin-top: 10px;
+    margin-right: 5px;
+    float: left;
+    width: calc(20% - 25px);
+    padding: 10px;
+    background: #121212;
+    min-height: 500px;
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+aside a {
+    color:#F16702;
+}
+aside div {
+    padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    margin: 5px 0px;
+    background:#121212 ;
+    color: white;
+    text-align: justify;
+}
+
+.foot1 {
+    font-weight: bold;
+}
+
+footer div {
+    flex: 1;
+    margin: 20px 0px;
+}
+
+#fi {
+    flex: 1;
+    text-align: center;
+}
+
+#fd {
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#fc {
+    flex: 2;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color:lightskyblue;
+    font-weight: bolder;
+    margin: 0px 10px;
+
+}
+
+footer a:hover {
+    color:rgb(255, 230, 0);
+}
