@@ -505,6 +505,10 @@ section {
         height: 0px;
     }
 
+    .row .col50 {
+        width: max-content;
+    }
+
     .btnw {
         width: 100%;
     }
@@ -528,9 +532,17 @@ section {
     }
 
     .menu .btn {
-        visibility: hidden;
+        display: none;
     }
     .tbtn {
         visibility: visible;
     }
 }
+
+@media (max-width: 381px){
+    section {
+        padding: 80px 50px;
+    }
+    .footer .cop p {
+        font-size: 0.8em;
+    }
