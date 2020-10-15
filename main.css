@@ -539,7 +539,7 @@ section {
     }
 }
 
-@media (max-width: 381px){
+@media screen (max-width: 381px){
     section {
         padding: 80px 50px;
     }
