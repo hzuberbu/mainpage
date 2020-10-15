@@ -453,6 +453,15 @@ section {
 
 @media (max-width: 752px) {
 
+    .row {
+        flex-direction: column;
+    }
+    .row .col50 {
+        width: 100%;
+    }
+    .title p {
+        text-align: center;
+    }
     .banner .content p {
         font-size: 1em;
         font-weight: normal;
@@ -491,30 +500,15 @@ section {
 }
 
 @media (max-width: 652px) {
-    .row .col50 {
-        width: auto;
-    }
-    .imgbox {
-        visibility: hidden;
-    }
+
     .banner .content h2 {
         font-size: 2em;
-    }
-
-    .expert .content .box .imgbox {
-        height: 0px;
-    }
-
-    .row .col50 {
-        width: max-content;
     }
 
     .btnw {
         width: 100%;
     }
-    .menu .content .box .imgbox {
-        height: 0px;
-    }
+
     p {
         text-align: center;
     }
@@ -545,5 +539,10 @@ section {
     }
     .footer .cop p {
         font-size: 0.8em;
+    }
+    header {
+        background-color: #f1f1f1;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        padding: 5px 50px;
     }
 }
