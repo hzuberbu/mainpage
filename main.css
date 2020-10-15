@@ -505,6 +505,15 @@ section {
         height: 0px;
     }
 
+    .btnw {
+        width: 100%;
+    }
+    .menu .content .box .imgbox {
+        height: 0px;
+    }
+    p {
+        text-align: center;
+    }
     header .menu {
         visibility: hidden;
     }
