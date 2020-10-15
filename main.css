@@ -498,11 +498,15 @@ section {
         visibility: hidden;
     }
     .banner .content h2 {
-        font-size: 3em;
+        font-size: 2em;
     }
 
     .expert .content .box .imgbox {
         height: 0px;
+    }
+
+    .row .col50 {
+        width: max-content;
     }
 
     .btnw {
